@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Friend</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="div-header flex">
+            <button>Again</button>
+            <p>The difference is in between 1 and 20</p>
+        </div>
+        <h1>Help your friends to meet</h1>
+        <div id = "div-characters" class="div-characters flex">
+            <img class="boy" src="/boy.png" alt="boy" width="50" height="100">
+            <img class="girl" src="/girl.png" alt="girl" width="50" height="100">
+        </div>
+        <hr>
+        <div class="details flex">
+
+            <div class="div-scores">
+                <p id="correct-dist">Wrong distance</p>
+                <p class="score">Score : <span id="ccore">10</span></p>
+                <p class="high-score">Highscore : <span id="highScore">20</span></p>
+            </div>
+
+            <div class="div-input">
+                <div class="div-checks">
+                    <input id="inputNum" type="number" min="1" max="20">
+                    <button onclick="checkNum()" class="check-btn" type="submit">Check</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
