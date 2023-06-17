@@ -49,6 +49,9 @@ main{
 .div-characters{
     width: 100%;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 90%;
 }
 
 .details{
@@ -72,7 +75,7 @@ input[type="number"]{
     background-color: #ECF2FF;
     font-size: 3rem;
     height: 2em;
-    width: 2em;
+    width: 3em;
     text-align: center;
     border: 1px solid black;
     outline: none;

@@ -12,21 +12,21 @@
 <body>
     <main>
         <div class="div-header flex">
-            <button>Again</button>
+            <button onClick="reset()">Again</button>
             <p>The difference is in between 1 and 20</p>
         </div>
         <h1>Help your friends to meet</h1>
         <div id = "div-characters" class="div-characters flex">
-            <img class="boy" src="/boy.png" alt="boy" width="50" height="100">
-            <img class="girl" src="/girl.png" alt="girl" width="50" height="100">
+            <img id="boy" src="/boy.png" alt="boy" width="50" height="100">
+            <img id="girl" src="/girl.png" alt="girl" width="50" height="100">
         </div>
         <hr>
         <div class="details flex">
 
             <div class="div-scores">
-                <p id="correct-dist">Wrong distance</p>
-                <p class="score">Score : <span id="ccore">10</span></p>
-                <p class="high-score">Highscore : <span id="highScore">20</span></p>
+                <p id="correct-dist">Start</p>
+                <p class="score">Score : <span id="score">20</span></p>
+                <p class="high-score">Highscore : <span id="highScore">0</span></p>
             </div>
 
             <div class="div-input">
